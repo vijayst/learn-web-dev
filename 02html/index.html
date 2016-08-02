@@ -1,0 +1,44 @@
+<html>
+<head>
+  <title>Home page</title>
+  <style>
+    div {
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+  <form action="/" method="post">
+    <div>
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" placeholder="enter name" />
+    </div>
+    <div>
+      <label for"degree">Degree</label>
+      <select id="degree" name="degree">
+        <option value="s">--- Select ----</option>
+        <option value="b">Bachelors</option>
+        <option value="m">Masters</option>
+        <option value="p">Ph.D</option>
+      </select>
+    </div>
+    <div>
+      <span>Gender: </span>
+      <input type="radio" id="genderM" name="gender" value="m" />
+      <label for="genderM">Male</label>
+      <input type="radio" id="genderF" name="gender" value="f" />
+      <label for="genderF">Female</label>
+    </div>
+    <div>
+      <span>Account type</span>
+      <input type="checkbox" id="employee" name="type" value="employee" />
+      <label for="employee">Employee</label>
+      <input type="checkbox" id="employer" name="type" value="employer" />
+      <label for="employer">Employer</label>
+    </div>
+    <div>
+      <input type="submit" value="Submit form" />
+    </div>
+  </form>
+</body>
+</html>
