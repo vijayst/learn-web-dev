@@ -1,0 +1,15 @@
+.row {
+  width: 100%;
+}
+
+.col {
+  width: 33.3333%;
+  float: left;
+  height: 50px;
+}
+
+@media (max-width: 768px) {
+    .col {
+        width: 100%;
+    }
+}
