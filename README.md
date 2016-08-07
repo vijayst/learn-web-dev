@@ -8,3 +8,4 @@ Each of the videos below has a hands-on coding exercise. Please do the hands-on 
 1. [Setting up express web server] (https://youtu.be/fe-3LxNORFc)
 2. [HTML form elements] (https://youtu.be/nwDchU-dqY4)
 3. [CSS fundamentals] (https://youtu.be/xDOXRrzxInM)
+4. [JS fundamentals] (https://youtu.be/KLxIqVzCHHc)
