@@ -1,18 +1,24 @@
-var obj = {
-  id: 1,
-  name: 'Vijay'
-};
-document.write(JSON.stringify(obj), '<br />');
+var array = [1, 2, 3, 4, 5];
+array.push(6);
+document.write(array, '<br />');
 
-var extendedObject = _.extend({}, obj, { age: 25 });
-document.write(JSON.stringify(extendedObject), '<br />');
+var last = array.pop();
+document.write(array,  '<br />');
+document.write('last: ', last,  '<br />');
 
-var keys = _.keys(obj);
-document.write('keys are ', keys, '<br />');
+var first = array.shift();
+document.write(array,  '<br />');
+document.write('first: ', first, '<br />')
 
-var values = _.values(obj);
-document.write('values are ', values, '<br />');
+array.unshift(0);
+document.write(array,  '<br />');
 
-_.mapObject(obj, function(value, key) {
-  document.write(key, ':', value, '<br />');
-});
+var subarray = array.slice();
+document.write(subarray,  '<br />');
+document.write(array === subarray,  '<br />');
+
+array.splice(0, 2);
+document.write(array,  '<br />');
+
+array.splice(1, 0, 10, 20, 30);
+document.write(array,  '<br />');
