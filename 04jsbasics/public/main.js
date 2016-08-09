@@ -3,6 +3,7 @@ var age = 23;
 var isEmployee = true;
 var theObject = {};
 var date = new Date();
+var a;
 
 function printType(obj) {
   document.write(obj, ' is of type ', typeof obj, '<br />');
@@ -25,7 +26,7 @@ function printSqrt(z) {
   }
 }
 
-var array = [name, age, isEmployee, theObject, date, undefined, null];
+var array = [name, age, isEmployee, theObject, date, a, null];
 printType(array);
 printClass(array);
 document.write('<p />');
