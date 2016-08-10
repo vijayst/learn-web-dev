@@ -10,3 +10,4 @@ Each of the videos below has a hands-on coding exercise. Please do the hands-on 
 3. [CSS fundamentals] (https://youtu.be/xDOXRrzxInM)
 4. [JS fundamentals] (https://youtu.be/KLxIqVzCHHc)
 5. [JS Object and Array using Underscore] (https://youtu.be/7C0MpdmJdw4)
+6. [JS Array manipulation] (https://youtu.be/Ct1LtySw4ow)
