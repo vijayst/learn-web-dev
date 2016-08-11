@@ -1,0 +1,32 @@
+<html>
+<head>
+  <title>Home page</title>
+  <script src='/jquery/dist/jquery.js'></script>
+  <script>
+    $(function() {
+      document.getElementById('hello').innerHTML = 'Hello world from JS';
+      $('#world').html('Hello world from jQuery');
+      $('.someClass').html('Hello world from class');
+      $('#list > li:first-child').text('First child');
+      $('#list > li:last-child').text('Last child');
+      $('#list > li:eq(1)').text('Second child');
+      $('#list > :not(li.notTest)').css('background-color', 'red');
+      $('input[name=greeting]').val('Hello world');
+    });
+  </script>
+</head>
+<body>
+  <div id="hello"></div>
+  <div id="world"></div>
+  <div class="someClass"></div>
+  <ul id="list">
+    <li></li>
+    <li class="notTest"></li>
+    <li></li>
+  </ul>
+  <input name="greeting" />
+  <input type="radio" name="gender" value="male" />
+  <input type="radio" name="gender" value="female" />
+  <button onClick="alert($('input[name=gender]:checked').val());">Click</button>
+</body>
+</html>
