@@ -10,8 +10,11 @@
       $('#list > li:first-child').text('First child');
       $('#list > li:last-child').text('Last child');
       $('#list > li:eq(1)').text('Second child');
-      $('#list > :not(li.notTest)').css('background-color', 'red');
+      $('#list > :not(li.notTest)').css('background-color', '#ccc');
       $('input[name=greeting]').val('Hello world');
+      $('#showGender').click(function() {
+        alert($('input[name=gender]:checked').val());
+      });
     });
   </script>
 </head>
@@ -27,6 +30,6 @@
   <input name="greeting" />
   <input type="radio" name="gender" value="male" />
   <input type="radio" name="gender" value="female" />
-  <button onClick="alert($('input[name=gender]:checked').val());">Click</button>
+  <button id="showGender">Show gender</button>
 </body>
 </html>
