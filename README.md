@@ -12,3 +12,4 @@ Each of the videos below has a hands-on coding exercise. Please do the hands-on 
 5. [JS Object and Array using Underscore] (https://youtu.be/7C0MpdmJdw4)
 6. [JS Array manipulation] (https://youtu.be/Ct1LtySw4ow)
 7. [jQuery selectors] (https://youtu.be/cWL5rHHeRq8)
+8. [jQuery DOM manipulation] (https://youtu.be/UMunzK98WYU)
