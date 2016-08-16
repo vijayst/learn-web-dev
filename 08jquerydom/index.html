@@ -1,0 +1,33 @@
+<html>
+<head>
+  <title>Home page</title>
+  <script src='/jquery/dist/jquery.js'></script>
+  <script>
+    $(function() {
+      $('#list1').append('<li>first child</li>');
+      $('<li>second child</li>').appendTo('#list1');
+      $('#list1').prepend('<li>another first child</li>');
+      $('#list2').html($('#list1').html());
+      $('#list2').empty();
+      $('#list1').remove();
+
+      $('#check1').click(function() {
+        alert($(this).prop('checked'));
+      });
+      $('#check1').prop('checked', true);
+
+      $('#text1').blur(function() {
+        alert($(this).val());
+      });
+      $('#text1').css('background-color', '#ccc');
+      
+    });
+  </script>
+</head>
+<body>
+  <ul id="list1"></ul>
+  <ul id="list2"></ul>
+  <input type="checkbox" id="check1" />
+  <input type="text" id="text1" />
+</body>
+</html>
