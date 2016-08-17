@@ -1,0 +1,21 @@
+<html>
+<head>
+  <title>Home page</title>
+  <script src='/jquery/dist/jquery.js'></script>
+  <script>
+    $(function() {
+      $.get('/message', { name: 'Vijay' }, function(data) {
+        $('#message').text(data.message);
+      }, 'json');
+
+      $.post('/send', { message: $('#post').text() }, function(data) {
+        alert(data.message);
+      }, 'json');
+    });
+  </script>
+</head>
+<body>
+  <div id="message"></div>
+  <div id="post">Hello world</div>
+</body>
+</html>
