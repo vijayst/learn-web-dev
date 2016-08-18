@@ -13,3 +13,4 @@ Each of the videos below has a hands-on coding exercise. Please do the hands-on 
 6. [JS Array manipulation] (https://youtu.be/Ct1LtySw4ow)
 7. [jQuery selectors] (https://youtu.be/cWL5rHHeRq8)
 8. [jQuery DOM manipulation] (https://youtu.be/UMunzK98WYU)
+9. [jQuery AJAX] (https://youtu.be/3hxXUiZi2Ao)
